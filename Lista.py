@@ -48,3 +48,6 @@ assert len(lista) == 3
 assert lista[:2][0].value == 20 and isinstance(lista[:2][0], Node)
 assert lista[:2][1].value == 30 and isinstance(lista[:2][1], Node)
 assert lista[-1].value == 40 and isinstance(lista[-1], Node)
+
+print(lista)
+print("Lista mostrada")
